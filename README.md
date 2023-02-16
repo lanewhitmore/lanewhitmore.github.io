@@ -29,4 +29,4 @@ Final Results ROC Curves:
 - Created a 75 year linear regression forecast that identified warming trends. 
 - Forecasts pointed out Australian and Asian temperatures rising more rapidly than North America.
 
-theme: Slate
+theme: slate
