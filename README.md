@@ -8,9 +8,11 @@
 - [Built a client facing API using StreamLit.](https://lanewhitmore-rent-prediction-rent-app-eda---whitmore-vd5d0e.streamlit.app/)
 
 [Part of the exploration process](https://github.com/lanewhitmore/lanewhitmore.github.io/blob/main/images/exploration.png)
+
 ![](https://github.com/lanewhitmore/lanewhitmore.github.io/blob/main/images/exploration.png)
 
 [Final results table evaluating MAE](https://github.com/lanewhitmore/lanewhitmore.github.io/blob/main/images/rentresults.png)
+
 ![](https://github.com/lanewhitmore/lanewhitmore.github.io/blob/main/images/rentresults.png)
 
 # [Project 2: Naticus-Droid Malware Classification](https://github.com/lanewhitmore/NATICUSdroid-Malware-Machine-Learning-Classification)
@@ -19,9 +21,11 @@
 - Built a Random Forest ensemble method that has 99.8% precision with 95% overall accuracy. 
 
 [Random Forest Confusion Matrix](https://github.com/lanewhitmore/lanewhitmore.github.io/blob/main/images/randomforestcm.png)
+
 ![](https://github.com/lanewhitmore/lanewhitmore.github.io/blob/main/images/randomforestcm.png)
 
 [Final Results ROC Curves](https://github.com/lanewhitmore/lanewhitmore.github.io/blob/main/images/naticusroc.png)
+
 ![](https://github.com/lanewhitmore/lanewhitmore.github.io/blob/main/images/naticusroc.png)
 
 # [Project 3: Earth Land Temperature Time Series Forecasting](https://github.com/stephenkuc/ADS506_FinalProj)
