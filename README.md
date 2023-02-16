@@ -15,3 +15,4 @@
 # [Project 3: Earth Land Temperature Time Series Forecasting](https://github.com/stephenkuc/ADS506_FinalProj)
 - Crafted decomposition charts to identify the weather trends across the six continents. 
 - Created a 75 year linear regression forecast that identified warming trends. 
+- Forecasts pointed out Australian and Asian temperatures rising more rapidly than North America.
