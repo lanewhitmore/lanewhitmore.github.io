@@ -1,6 +1,5 @@
-# lanewhitmore.github.io
-
-Data Science Portfolio
+# Lane Whitmore
+## M.S. Data Science
 
 # [Project 1: Indian Rent Prediction](https://github.com/lanewhitmore/Rent_Prediction)
 - Constructed an application that predicts rental prices in Indian cities in both Indian Rupee and USD.
