@@ -18,7 +18,7 @@ Final results table evaluating MAE:
 # [Project 2: Naticus-Droid Malware Classification](https://github.com/lanewhitmore/NATICUSdroid-Malware-Machine-Learning-Classification)
 - Constructed and compared multiple machine learning algorithms. 
 - Tuned the algorithms based on the primary business objective, to classify as many Android Malware applications as possible.
-- Built a Random Forest ensembl method that has 99.8% precision with 95% overall accuracy. 
+- Built a Random Forest ensemble method that has 99.8% precision with 95% overall accuracy. 
 
 Random Forest Confusion Matrix:
 
