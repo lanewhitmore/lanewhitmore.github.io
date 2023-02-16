@@ -5,7 +5,7 @@
 - Constructed an application that predicts rental prices in Indian cities in both Indian Rupee and USD.
 - Deployed and compared multiple machine learning algorithms to identify the most effective. 
 - Built an ensemble method that predicts monthly rental prices with around a $100 mean absolute error (MAE). 
-- Built a client facing API using StreamLit.
+- [Built a client facing API using StreamLit.](https://lanewhitmore-rent-prediction-rent-app-eda---whitmore-vd5d0e.streamlit.app/)
 
 # [Project 2: Naticus-Droid Malware Classification](https://github.com/lanewhitmore/NATICUSdroid-Malware-Machine-Learning-Classification)
 - Constructed and compared multiple machine learning algorithms. 
