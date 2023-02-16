@@ -8,6 +8,7 @@
 - [Built a client facing API using StreamLit.](https://lanewhitmore-rent-prediction-rent-app-eda---whitmore-vd5d0e.streamlit.app/)
 
 ![](https://github.com/lanewhitmore/lanewhitmore.github.io/blob/main/images/exploration.png)
+
 ![](https://github.com/lanewhitmore/lanewhitmore.github.io/blob/main/images/rent_results.png)
 
 # [Project 2: Naticus-Droid Malware Classification](https://github.com/lanewhitmore/NATICUSdroid-Malware-Machine-Learning-Classification)
@@ -16,6 +17,7 @@
 - Built a Random Forest ensembl method that has 99.8% precision with 95% overall accuracy. 
 
 ![](https://github.com/lanewhitmore/lanewhitmore.github.io/blob/main/images/Random_Forest_cm.png)
+
 ![](https://github.com/lanewhitmore/lanewhitmore.github.io/blob/main/images/naticus_ROC.png)
 
 # [Project 3: Earth Land Temperature Time Series Forecasting](https://github.com/stephenkuc/ADS506_FinalProj)
