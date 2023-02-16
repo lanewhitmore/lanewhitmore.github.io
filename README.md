@@ -9,11 +9,11 @@
 
 Part of the exploration process:
 
-![](https://github.com/lanewhitmore/lanewhitmore.github.io/blob/ee53ed09f425f7d364481601984f3961a302d0e2/images/exploration.png)
+![](https://github.com/lanewhitmore/lanewhitmore.github.io/images/exploration.png)
 
 Final results table evaluating MAE:
 
-![](https://github.com/lanewhitmore/lanewhitmore.github.io/blob/ee53ed09f425f7d364481601984f3961a302d0e2/images/naticusroc.png)
+![](https://github.com/lanewhitmore/lanewhitmore.github.io/images/naticusroc.png)
 
 # [Project 2: Naticus-Droid Malware Classification](https://github.com/lanewhitmore/NATICUSdroid-Malware-Machine-Learning-Classification)
 - Constructed and compared multiple machine learning algorithms. 
@@ -22,11 +22,11 @@ Final results table evaluating MAE:
 
 Random Forest Confusion Matrix:
 
-![](https://github.com/lanewhitmore/lanewhitmore.github.io/blob/ee53ed09f425f7d364481601984f3961a302d0e2/images/randomforestcm.png)
+![](https://github.com/lanewhitmore/lanewhitmore.github.io/images/randomforestcm.png)
 
 Final Results ROC Curves:
 
-![](https://github.com/lanewhitmore/lanewhitmore.github.io/blob/be8bc1298cc37c540ddccbe35e984ce115f2caef/images/rentresults.png)
+![](https://lanewhitmore.github.io/images/rentresults.png)
 
 # [Project 3: Earth Land Temperature Time Series Forecasting](https://github.com/stephenkuc/ADS506_FinalProj)
 - Crafted decomposition charts to identify the weather trends across the six continents. 
