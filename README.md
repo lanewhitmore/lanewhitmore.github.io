@@ -27,7 +27,7 @@
 
 [Final Results ROC Curves](https://github.com/lanewhitmore/lanewhitmore.github.io/blob/main/images/naticusroc.png)
 
-![](https://github.com/lanewhitmore/lanewhitmore.github.io/blob/main/images/naticusroc.png)
+![](images/rentresults.png)
 
 # [Project 3: Earth Land Temperature Time Series Forecasting](https://github.com/stephenkuc/ADS506_FinalProj)
 - Crafted decomposition charts to identify the weather trends across the six continents. 
