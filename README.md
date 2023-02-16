@@ -9,7 +9,7 @@
 
 [Part of the exploration process](https://github.com/lanewhitmore/lanewhitmore.github.io/blob/f9d9e55dad86387850f2a8fb5c2dfe1059f3cdbe/images/exploration.png)
 
-[Final results table evaluating MAE](https://github.com/lanewhitmore/lanewhitmore.github.io/blob/a390945588ea174d4933c2be0ddbb04a6699d9e3/images/naticusroc.png
+[Final results table evaluating MAE](https://github.com/lanewhitmore/lanewhitmore.github.io/blob/a390945588ea174d4933c2be0ddbb04a6699d9e3/images/naticusroc.png)
 
 # [Project 2: Naticus-Droid Malware Classification](https://github.com/lanewhitmore/NATICUSdroid-Malware-Machine-Learning-Classification)
 - Constructed and compared multiple machine learning algorithms. 
