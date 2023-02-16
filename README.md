@@ -28,5 +28,3 @@ Final Results ROC Curves:
 - Crafted decomposition charts to identify the weather trends across the six continents. 
 - Created a 75 year linear regression forecast that identified warming trends. 
 - Forecasts pointed out Australian and Asian temperatures rising more rapidly than North America.
-
-theme: slate
