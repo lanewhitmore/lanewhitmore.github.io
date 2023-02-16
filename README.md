@@ -9,7 +9,7 @@
 
 Part of the exploration process:
 
-![image](https://github.com/lanewhitmore/lanewhitmore.github.io/images/exploration.png)
+![image](https://github.com/lanewhitmore/lanewhitmore.github.io/blob/f9d9e55dad86387850f2a8fb5c2dfe1059f3cdbe/images/exploration.png)
 
 Final results table evaluating MAE:
 
