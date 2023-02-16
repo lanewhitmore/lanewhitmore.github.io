@@ -8,8 +8,10 @@
 - [Built a client facing API using StreamLit.](https://lanewhitmore-rent-prediction-rent-app-eda---whitmore-vd5d0e.streamlit.app/)
 
 [Part of the exploration process](https://github.com/lanewhitmore/lanewhitmore.github.io/blob/f9d9e55dad86387850f2a8fb5c2dfe1059f3cdbe/images/exploration.png)
+![](https://github.com/lanewhitmore/lanewhitmore.github.io/blob/f9d9e55dad86387850f2a8fb5c2dfe1059f3cdbe/images/exploration.png)
 
 [Final results table evaluating MAE](https://github.com/lanewhitmore/lanewhitmore.github.io/blob/a390945588ea174d4933c2be0ddbb04a6699d9e3/images/naticusroc.png)
+![](https://github.com/lanewhitmore/lanewhitmore.github.io/blob/a390945588ea174d4933c2be0ddbb04a6699d9e3/images/naticusroc.png)
 
 # [Project 2: Naticus-Droid Malware Classification](https://github.com/lanewhitmore/NATICUSdroid-Malware-Machine-Learning-Classification)
 - Constructed and compared multiple machine learning algorithms. 
@@ -17,8 +19,10 @@
 - Built a Random Forest ensemble method that has 99.8% precision with 95% overall accuracy. 
 
 [Random Forest Confusion Matrix](https://github.com/lanewhitmore/lanewhitmore.github.io/blob/a390945588ea174d4933c2be0ddbb04a6699d9e3/images/randomforestcm.png)
+![](https://github.com/lanewhitmore/lanewhitmore.github.io/blob/a390945588ea174d4933c2be0ddbb04a6699d9e3/images/randomforestcm.png)
 
 [Final Results ROC Curves](https://github.com/lanewhitmore/lanewhitmore.github.io/blob/a390945588ea174d4933c2be0ddbb04a6699d9e3/images/rentresults.png)
+![](https://github.com/lanewhitmore/lanewhitmore.github.io/blob/a390945588ea174d4933c2be0ddbb04a6699d9e3/images/rentresults.png)
 
 # [Project 3: Earth Land Temperature Time Series Forecasting](https://github.com/stephenkuc/ADS506_FinalProj)
 - Crafted decomposition charts to identify the weather trends across the six continents. 
