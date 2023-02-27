@@ -7,6 +7,8 @@
 - Constructed automation through a .bat file that performs ELT in approximately 3 minutes.
 - Performed automated analytics dashboarding in addition to prepping data for future use cases.
 
+![](images/bis_pipe_flow.png)
+
 # [Project 2: Indian Rent Prediction](https://github.com/lanewhitmore/Rent_Prediction)
 - Constructed an application that predicts rental prices in Indian cities in both Indian Rupee and USD.
 - Deployed and compared multiple machine learning algorithms to identify the most effective. 
