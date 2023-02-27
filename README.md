@@ -6,7 +6,9 @@
 - Constructed an ELT Pipeline that extracts information from the BIS statistical website to a relational database in MySQL.
 - Constructed automation through a .bat file that performs ELT in approximately 3 minutes.
 - Performed automated analytics dashboarding in addition to prepping data for future use cases.
+
 [Architecture for BIS Pipeline:](https://github.com/lanewhitmore/lanewhitmore.github.io/blob/main/images/bis_pipe_flow.png)
+
 ![](images/bis_pipe_flow.png)
 
 # [Project 2: Indian Rent Prediction](https://github.com/lanewhitmore/Rent_Prediction)
