@@ -42,3 +42,8 @@
 - Crafted decomposition charts to identify the weather trends across the six continents. 
 - Created a 75 year linear regression forecast that identified warming trends. 
 - Forecasts pointed out Australian and Asian temperatures rising more rapidly than North America.
+
+# [Project 5: YouTube Trending Classification](https://github.com/lanewhitmore/youtube-trending-predictions)
+- Constructed classification model using BERT neural network and infrastructure.
+- EDA and modeling done in AWS Sagemaker.
+- Live endpoint used to run and evaluate the model based on confusion matrix metrics.
