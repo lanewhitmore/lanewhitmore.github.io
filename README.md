@@ -4,17 +4,25 @@
 
 # [Project 1: BIS Automated Pipeline](https://github.com/lanewhitmore/BIS_Data_Pipeline)
 - Constructed an ELT Pipeline that extracts information from the BIS statistical website to a relational database in MySQL.
-- Constructed automation through a .bat file that performs ELT in approximately 3 minutes.
+- Constructed automation through a .bat file that performs ELT in approximately ~2 minutes.
 - Performed automated analytics dashboarding in addition to prepping data for future use cases.
 
 [Architecture for BIS Pipeline:](https://github.com/lanewhitmore/lanewhitmore.github.io/blob/main/images/bis_pipe_flow.png)
 
 ![](images/bis_pipe_flow.png)
 
-# [Project 2: Indian Rent Prediction](https://github.com/lanewhitmore/Rent_Prediction)
+# [Project 2: Amazon Media Sentiment](https://github.com/lanewhitmore/ads-509-final)
+- Committed high level data cleaning on review data to prep for modeling that included: removal of stop words, tokenization, removal of punctuation, and removal of uppercase letters.
+- Scraped the review data from Amazon HTML pages using Selenium in python.
+- Constructed sentiment model with 83.2% accuracy on test set (Support Vector Classifier).
+- FastAPI model deployment with HTML/CSS endpoint construction and formatting. 
+
+
+# [Project 3: Indian Rent Prediction](https://github.com/lanewhitmore/Rent_Prediction)
 - Constructed an application that predicts rental prices in Indian cities in both Indian Rupee and USD.
 - Deployed and compared multiple machine learning algorithms to identify the most effective. 
-- Built an ensemble method that predicts monthly rental prices with around a $100 mean absolute error (MAE). 
+- Built an ensemble method that predicts monthly rental prices with around a $100 mean absolute error (MAE).
+- Used HTML/CSS to build and format the application through the StreamLit container.
 - [Built a client facing API using StreamLit.](https://lanewhitmore-rent-prediction-rent-app-eda---whitmore-vd5d0e.streamlit.app/)
 
 [Part of the exploration process:](https://github.com/lanewhitmore/lanewhitmore.github.io/blob/main/images/exploration.png)
@@ -25,7 +33,7 @@
 
 ![](images/rentresults.png)
 
-# [Project 3: Naticus-Droid Malware Classification](https://github.com/lanewhitmore/NATICUSdroid-Malware-Machine-Learning-Classification)
+# [Project 4: Naticus-Droid Malware Classification](https://github.com/lanewhitmore/NATICUSdroid-Malware-Machine-Learning-Classification)
 - Constructed and compared multiple machine learning algorithms. 
 - Tuned the algorithms based on the primary business objective, to classify as many Android Malware applications as possible.
 - Built a Random Forest ensemble method that has 99.8% precision with 95% overall accuracy. 
@@ -38,12 +46,12 @@
 
 ![](images/naticusroc.png)
 
-# [Project 4: Earth Land Temperature Time Series Forecasting](https://github.com/stephenkuc/ADS506_FinalProj)
+# [Project 5: Earth Land Temperature Time Series Forecasting](https://github.com/stephenkuc/ADS506_FinalProj)
 - Crafted decomposition charts to identify the weather trends across the six continents. 
 - Created a 75 year linear regression forecast that identified warming trends. 
 - Forecasts pointed out Australian and Asian temperatures rising more rapidly than North America.
 
-# [Project 5: YouTube Trending Classification](https://github.com/lanewhitmore/youtube-trending-predictions)
+# [Project 6: YouTube Trending Classification](https://github.com/lanewhitmore/youtube-trending-predictions)
 - Constructed classification model using BERT neural network and infrastructure.
 - EDA and modeling done in AWS Sagemaker.
 - Live endpoint used to run and evaluate the model based on confusion matrix metrics.
