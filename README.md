@@ -15,7 +15,11 @@
 - Committed high level data cleaning on review data to prep for modeling that included: removal of stop words, tokenization, removal of punctuation, and removal of uppercase letters.
 - Scraped the review data from Amazon HTML pages using Selenium in python.
 - Constructed sentiment model with 83.2% accuracy on test set (Support Vector Classifier).
-- FastAPI model deployment with HTML/CSS endpoint construction and formatting. 
+- FastAPI model deployment with HTML/CSS endpoint construction and formatting.
+
+[FastAPI Sentiment Model Home Page:](https://github.com/lanewhitmore/lanewhitmore.github.io/blob/main/images/FastAPI.jpg)
+
+![](images/FastAPI.jpg)
 
 
 # [Project 3: Indian Rent Prediction](https://github.com/lanewhitmore/Rent_Prediction)
