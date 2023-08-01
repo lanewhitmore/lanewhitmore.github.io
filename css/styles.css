@@ -11,7 +11,7 @@ li a:hover {
 }
 
 li {
-    float: center;
+    float: left;
 }
 
 ul.navbar {
