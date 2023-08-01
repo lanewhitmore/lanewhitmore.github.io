@@ -1,7 +1,8 @@
 h1 {
     color: steelblue;
-}
-h1.center {
     margin: auto;
     width: 50%;
+}
+p.click-for-more {
+    font-size: 6px;
 }
