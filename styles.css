@@ -1,0 +1,7 @@
+h1 {
+    color: steelblue;
+}
+h1.center {
+    margin: auto;
+    width: 50%;
+}
