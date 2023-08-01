@@ -1,5 +1,6 @@
 # Lane Whitmore
 ## M.S. Data Science
+### Shirley-Marcos School of Engineering
 ### University of San Diego
 
 # [Project 1: BIS Automated Pipeline](https://github.com/lanewhitmore/BIS_Data_Pipeline)
