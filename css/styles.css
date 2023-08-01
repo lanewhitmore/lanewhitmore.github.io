@@ -18,6 +18,11 @@ h2 {
     margin: auto;
     width: 50%;
 }
+h3 {
+    color: steelblue;
+    margin: auto;
+    width: 50%;
+}
 a.click-for-more {
     font-size: 8px;
 }
