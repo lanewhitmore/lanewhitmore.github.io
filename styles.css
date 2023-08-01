@@ -3,7 +3,7 @@ h2 {
     margin: auto;
     width: 50%;
 }
-p.click-for-more {
+a.click-for-more {
     font-size: 8px;
 }
 
