@@ -3,6 +3,10 @@ li {
     float: left;
 }
 
+ul {
+    background-color: #dddddd;
+}
+
 a.nav {
     display: block;
     padding: 8px;
