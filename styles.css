@@ -1,3 +1,14 @@
+li {
+    display: inline;
+    float: left;
+}
+
+a.nav {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
+
 h2 {
     color: steelblue;
     margin: auto;
