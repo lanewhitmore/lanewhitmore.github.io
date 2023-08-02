@@ -106,8 +106,12 @@ ul.descriptions {
     margin: auto;
     width: 50%;
     color: whitesmoke;
-    padding: 10px;
+    padding: 20px;
 }
+l.desc {
+    padding:10px;
+}
+
 p.descriptions {
     margin: auto;
     width: 50%;
