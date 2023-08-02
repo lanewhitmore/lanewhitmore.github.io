@@ -58,6 +58,11 @@ div.dropdown-content a {
     text-align: left;
   }
 
+  div.headers {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+  }
 h1 {
     color: steelblue;
     margin: auto;
