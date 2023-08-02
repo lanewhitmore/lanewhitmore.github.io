@@ -125,3 +125,7 @@ div.imagedesc {
 p.imagealign {
     text-align: center;
 }
+
+img.head {
+    border-radius: 50%;
+}
