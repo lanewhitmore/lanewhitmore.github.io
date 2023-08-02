@@ -95,9 +95,7 @@ body {
     background-color: darkslategray
 }
 
-img {
 
-}
 
 ul.descriptions {
     margin: auto;
@@ -122,4 +120,8 @@ div.imagedesc {
     color: whitesmoke;
     padding: 20px;
     font-weight: bold;
+}
+
+p.imagealign {
+    text-align: center;
 }
