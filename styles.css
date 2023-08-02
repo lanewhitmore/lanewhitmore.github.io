@@ -58,11 +58,18 @@ div.dropdown-content a {
     text-align: left;
   }
 
-  div.headers {
+div.headers {
     background-color: black;
     padding: 20px;
     text-align: center;
-  }
+}
+
+div.subheaders {
+    padding: 20px;
+    margin:auto;
+    width:50%
+}
+
 h1 {
     color: steelblue;
     margin: auto;
@@ -99,6 +106,7 @@ ul.descriptions {
     margin: auto;
     width: 50%;
     color: whitesmoke;
+    padding: 10px;
 }
 p.descriptions {
     margin: auto;
