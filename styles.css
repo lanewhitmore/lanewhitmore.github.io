@@ -90,6 +90,11 @@ img {
     width: 50%;
 }
 
+ul.descriptions {
+    margin: auto;
+    width: 50%;
+    color: whitesmoke;
+}
 p.descriptions {
     margin: auto;
     width: 50%;
