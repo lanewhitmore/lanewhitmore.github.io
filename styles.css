@@ -93,8 +93,12 @@ a.click-for-more {
     font-size: 10px;
 }
 
+a {
+    color: #fefae0;
+}
+
 body {
-    background-color: darkslategray
+    background-color: beige;
 }
 
 
