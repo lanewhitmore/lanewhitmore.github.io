@@ -1,6 +1,6 @@
 div.navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: #283618;
     font-family: Arial;
 }
 
@@ -30,7 +30,7 @@ div.dropdown button.dropbtn {
   }
 
 div.navbar a:hover, div.dropdown:hover button.dropbtn {
-    background-color: red;
+    background-color: #bc6c25;
 }
 
 div.dropdown-content {
@@ -59,7 +59,7 @@ div.dropdown-content a {
   }
 
 div.headers {
-    background-color: beige;
+    background-color: #dda15e;
     padding: 20px;
     text-align: center;
     font-size: 50px;
@@ -98,7 +98,7 @@ a {
 }
 
 body {
-    background-color: beige;
+    background-color: #fefae0;
 }
 
 
