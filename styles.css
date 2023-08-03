@@ -59,14 +59,17 @@ div.dropdown-content a {
   }
 
 div.headers {
-    background-color: rgb(163, 190, 220);
+    background-color: beige;
     padding: 20px;
     text-align: center;
+    font-size: 50px;
+    font-style: ;
 }
 
 div.subheaders {
     padding: 20px;
     text-align: center;
+    font-size: 40px;
 }
 
 h1 {
