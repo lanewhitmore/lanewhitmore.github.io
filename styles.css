@@ -137,4 +137,8 @@ img.head {
     border: thin solid black;
 }
 
+.tableau {
+    text-align: center;
+    padding: 20px;
+}
 
