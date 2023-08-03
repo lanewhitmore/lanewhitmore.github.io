@@ -98,6 +98,7 @@ body {
 
 
 ul.descriptions {
+    list-style-type: disc;
     margin: auto;
     width: 50%;
     color: whitesmoke;
