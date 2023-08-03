@@ -101,8 +101,6 @@ body {
     background-color: #fefae0;
 }
 
-
-
 ul.descriptions {
     list-style-type: disc;
     margin: auto;
@@ -135,4 +133,6 @@ p.imagealign {
 
 img.head {
     border-radius: 50%;
+    padding: 1px;
+    border: thin solid black;
 }
