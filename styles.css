@@ -145,6 +145,5 @@ img.head {
   
 .c-img {
     height: 100%;
-    object-fit: contain;
     filter: brightness(0.6);
 }
