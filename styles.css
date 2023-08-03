@@ -138,12 +138,13 @@ img.head {
 }
 
 .c-item {
-    height: 480px;
+    height: 350px;
   }
   
 .c-img {
     height: 100%;
-    object-fit: cover;
+    width: 100%;
+    object-fit: contain;
     filter: brightness(0.6);
 }
 
