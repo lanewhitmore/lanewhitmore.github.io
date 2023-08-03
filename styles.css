@@ -89,6 +89,12 @@ h3 {
     width: 50%;
 }
 
+h4 {
+    color: #606c38;
+    margin: auto;
+    width: 50%;
+}
+
 a.click-for-more {
     font-size: 10px;
 }
