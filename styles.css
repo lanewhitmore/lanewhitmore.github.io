@@ -137,16 +137,4 @@ img.head {
     border: thin solid black;
 }
 
-.c-item {
-    height: 350px;
-  }
-  
-.carousel-inner .c-img {
-    height: 100%;
-    width: 100% !important;
-}
-
-.c-img {
-
-}
 
