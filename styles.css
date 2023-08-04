@@ -4,6 +4,10 @@ div.navbar {
     font-family: Arial;
 }
 
+.topnav-right {
+    float: right;
+}
+
 div.navbar a {
     float: left;
     font-size: 16px;
@@ -63,7 +67,6 @@ div.headers {
     padding: 20px;
     text-align: center;
     font-size: 35px;
-    font-style: ;
 }
 
 div.subheaders {
