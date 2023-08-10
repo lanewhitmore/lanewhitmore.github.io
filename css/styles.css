@@ -1,0 +1,156 @@
+div.navbar {
+    overflow: hidden;
+    background-color: #283618;
+    font-family: Arial;
+}
+
+div.navbar-right {
+    float: right !important;
+}
+
+div.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+div.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+
+div.dropdown button.dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+
+div.navbar a:hover, div.dropdown:hover button.dropbtn {
+    background-color: #bc6c25;
+}
+
+div.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+div.dropdown-content a:hover {
+    background-color: #ddd;
+  }
+div.dropdown:hover div.dropdown-content {
+    display: block;
+  }
+
+div.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+div.headers {
+    background-color: #dda15e;
+    padding: 20px;
+    text-align: center;
+    font-size: 35px;
+}
+
+div.subheaders {
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+h1 {
+    color: #283618;
+    margin: auto;
+    width: 50%;
+}
+
+h2 {
+    color: #606c38;
+    margin: auto;
+    width: 50%;
+}
+h3 {
+    color: #606c38;
+    margin: auto;
+    width: 50%;
+}
+
+h4 {
+    color: #606c38;
+    margin: auto;
+    width: 50%;
+}
+
+a.click-for-more {
+    font-size: 10px;
+}
+
+a {
+    color: #dda15e;
+}
+
+body {
+    background-color: #fefae0;
+}
+
+ul.descriptions {
+    list-style-type: disc;
+    margin: auto;
+    width: 50%;
+    color: black;
+    padding: 20px;
+}
+
+li.desc {
+    padding:15px;
+}
+
+p.descriptions {
+    margin: auto;
+    width: 50%;
+    color: black;
+}
+
+div.imagedesc {
+    margin: auto;
+    width: 50%;
+    color: #606c38;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+p.imagealign {
+    text-align: center;
+}
+
+img.head {
+    border-radius: 50%;
+    padding: 0px;
+    border: thin solid black;
+}
+
+.tableauViz {
+    text-align: center;
+    padding: 20px;
+}
+
+img {
+    border-radius: 5%;
+}
