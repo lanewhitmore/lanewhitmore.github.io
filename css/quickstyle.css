@@ -1,0 +1,235 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0 1rem 0 1rem;
+    color: #adb5bd;
+    font-family: 'Roboto Light', sans-serif;
+}
+html {
+    height: auto;
+    min-width: auto;
+    background: #212529;
+    background-size: auto;
+}
+
+.title_container{
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    padding: 1rem;
+}
+
+
+.description_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1rem;
+
+}
+
+.label_container{
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    padding: 0rem 1rem;
+}
+
+.notice_container{
+    color: lightcoral;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.review_container{
+    display: flex;
+    justify-content: left;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+.classify_container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1px;
+    padding-top: 1rem;
+}
+
+.img_container{
+    padding-top: 1px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.sentiment_container{
+    display: flex;
+    justify-content: left;
+    padding-top:5px;
+    font-weight: bold;
+
+}
+
+.review-item{
+    padding: 7px;
+}
+
+.input-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+textarea {
+    color: black;
+    font-size: 10px;
+    padding: 8px;
+    resize: vertical;
+    height: 5rem;
+    width: 100%;
+    font-size: 1rem;
+    border-radius: 10px;
+    outline: none;
+    min-height: 150px;
+    max-height: 400px;
+}
+
+textarea::placeholder {
+  color: #212529;
+}
+
+textarea:focus::placeholder {
+  color: transparent;
+}
+
+.textarea-container {
+    display: flex;
+    height: 5rem;
+    width: 100%;
+    font-size: 1rem;
+    border-radius: 10px;
+    padding-left: 5px;
+}
+
+
+.flex-child {
+    flex: 1;
+    border: 2px solid yellow;
+}
+
+.upload_file {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    border: none;
+}
+
+button[type='submit']{
+    display: flex;
+    justify-content: center;
+    padding: 5px 10px;
+    font-size: .9rem;
+    border-radius: 25px;
+    border: white;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+}
+
+.submit-button {
+    display: flex;
+    justify-content: center;
+    margin-right:0;
+    margin-top: 5px;
+}
+
+label:hover {
+    color: cadetblue;
+    cursor: pointer;
+}
+
+button:hover {
+
+    color: cadetblue;
+    cursor: pointer;
+}
+
+h1 {
+    padding: .5rem;
+    font-size: 40px;
+    font-weight: 600;
+    background: #FFFFFF;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-align: left;
+}
+
+h2 {
+    padding: .5rem;
+    color: cadetblue;
+
+}
+
+caption {
+    background: cadetblue;
+    color: #fff;
+    caption-side: top;
+    font-size: 25px;
+}
+
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+}
+p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/* Add the recipe box styles*/
+/* Add the recipe box styles */
+.recipe-box {
+    width: calc(33.33% - 10px);
+    margin: 5px;
+    font-size: .9rem;
+    padding: 10px;
+    border: 2px solid rgb(56, 116, 28);
+    border-radius: 25px;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    background-color: #e9e6e6; 
+    color: black;
+    font-weight: normal;
+  }
+  
+.recipe-box .title {
+    color: rgb(43, 114, 206);
+    font-size: 1.0rem;
+    font-weight: bold;
+    margin-bottom: 15px;  
+}
+
+.recipe-box .content {
+    color: black; 
+    font-size: .9rem;
+}
+
+.recipe-box .label {
+    color: rgb(56, 116, 28);
+    font-size: .9rem;
+    font-weight: bold;
+}
