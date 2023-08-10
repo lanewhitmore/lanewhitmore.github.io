@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>QuickEats</title>
+    <link href="{{ url_for('static', path='/css/quickstyle.css') }}" rel="stylesheet">
+</head>
+<body>
+<h1 class="title_container">QuickEats: Food Classifier</h1>
+
+<h2>Details For Use:</h2>
+<p class="description_container">The application analyzes food images via a CNN MobileNet architecture, once an image is uploaded the web application will classify the food image and provide three recipes associated with it.</p>
+
+<form id="uploadForm" method="post" enctype="multipart/form-data">
+    <div class="input-row">
+        <label class="upload_file" for="img">Upload Food Image</label>
+        <input type="file" id="img" onchange="loadFile(event)" name="file" accept="image/*" hidden>
+    </div>
+    <div class="submit-button">
+        <button type="submit">Classify</button>
+    </div>
+</form>
+
+<div id="predictionContainer" class="classify_container">
+</div>
+<div class="img_container">
+    <p><img id="output" width="400" /></p>
+</div>
+<div id="recipeContainer">
+    <!-- The recipe boxes will be dynamically created here -->
+</div>
+
+<script>
+    // Load Image
+    var loadFile = function(event) {
+        var image = document.getElementById('output');
+        image.src = URL.createObjectURL(event.target.files[0]);
+
+        const predictionContainer = document.getElementById("predictionContainer");
+        predictionContainer.innerHTML = "";
+
+        const recipeContainer = document.getElementById("recipeContainer");
+        recipeContainer.innerHTML = "";
+    };
+
+    document.getElementById("uploadForm").addEventListener("submit", function (event) {
+        event.preventDefault();
+        const form = event.target;
+        const fileInput = form.elements.file;
+        const formData = new FormData();
+        formData.append("file", fileInput.files[0]);
+
+        fetch("/classify", {
+            method: "POST",
+            body: formData,
+        })
+        .then(response => response.json())
+        .then(data => {
+            const predictionContainer = document.getElementById("predictionContainer");
+            predictionContainer.innerHTML = `
+                <ul>
+                    <div class="review_container">
+                        Food: ${data.pred_label} | Probability: ${data.pred_prob}
+                    </div>
+                </ul>
+            `;
+            return fetch('https://api.api-ninjas.com/v1/recipe?query=' + encodeURIComponent(data.pred_label), {
+                headers: { 'X-Api-Key': 'ENTER_KEY_HERE' }
+            });
+        })
+        .then(response => response.json())
+        .then(res => {
+            const recipeContainer = document.getElementById("recipeContainer");
+            recipeContainer.innerHTML = "";
+
+            for (let i = 0; i < Math.min(3, res.length); i++) {
+                const recipeBox = document.createElement('div');
+                recipeBox.classList.add('recipe-box'); 
+
+                const title = document.createElement('div');
+                title.classList.add('title');
+                title.textContent = `Recipe: ${res[i].title}`;
+
+                const ingredient = document.createElement('div');
+                ingredient.classList.add('content');
+                ingredient.innerHTML = `<span class="label">Ingredients:</span><br>${res[i].ingredients.replace(/\|/g, '<br>')}`;
+
+                const serving = document.createElement('div');
+                serving.classList.add('content');
+                serving.innerHTML = `<span class="label">Servings:</span><br>${res[i].servings}`;
+
+                const instruction = document.createElement('div');
+                instruction.classList.add('content');
+                instruction.innerHTML = `<span class="label">Instructions:</span><br>${res[i].instructions}`;
+
+                recipeBox.appendChild(title);
+                recipeBox.appendChild(ingredient);
+                recipeBox.appendChild(serving);
+                recipeBox.appendChild(instruction);
+
+                recipeContainer.appendChild(recipeBox);
+            }
+        })
+        .catch(error => {
+            console.error("Error:", error);
+        });
+    });
+  
+</script>
+
+</body>
+</html>
