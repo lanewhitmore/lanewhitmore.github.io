@@ -65,8 +65,21 @@
 <ul class="descriptions">
     <li class="desc">Spending time with my wife and my family.</li>
     <li class="desc">Reading; Sci-fi, Fantasy, Literary Fiction, or any recommended book!</li>
-    <li class="desc">Golfing, Sand Volleyball, & Basketball</li>
-    <li class="desc">Making Lattes, Baking Bread, & Cooking Pasta</li>
+    <script type="text/javascript">
+        function loadEvents() {
+            var mailString;
+            function updateMailString() {
+                mailString = '?subject=' + encodeURIComponent($('#subject').val())
+                    + '&body=' + encodeURIComponent($('#message').val());
+                $('#mail-link').attr('href',  'mailto:whitmorelane@gmail.com' + mailString);
+            }
+            $( "#subject" ).focusout(function() { updateMailString(); });
+            $( "#message" ).focusout(function() { updateMailString(); });
+            updateMailString();
+        }
+    </script>
+    <li class="desc">Golfing, sand volleyball, & basketball</li>
+    <li class="desc">Making lattes, baking bread, cooking pasta, & trying new restaurants</li>
 </ul>
 
 </body>
